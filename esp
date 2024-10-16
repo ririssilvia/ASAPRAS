@@ -1,0 +1,47 @@
+#include <WiFi.h>
+#include <HTTPClient.h>
+
+// Ganti dengan SSID dan Password WiFi kamu
+const char* ssid = "your_SSID";
+const char* password = "your_PASSWORD";
+
+// URL skrip PHP
+const char* serverName = "http://your-server.com/your-script.php";
+
+void setup() {
+  Serial.begin(115200);
+  WiFi.begin(ssid, password);
+
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+  
+  Serial.println("Connected to WiFi");
+}
+
+void loop() {
+  if (WiFi.status() == WL_CONNECTED) {
+    HTTPClient http;
+
+    http.begin(serverName);
+    http.addHeader("Content-Type", "application/x-www-form-urlencoded");
+
+    // Data yang ingin dikirim
+    String httpRequestData = "value=" + String(random(0, 100)); // Ganti dengan data sensor
+
+    int httpResponseCode = http.GET();
+
+    if (httpResponseCode > 0) {
+      String payload = http.getString();
+      Serial.println(httpResponseCode);
+      Serial.println(payload);
+    } else {
+      Serial.println("Error on sending GET request");
+    }
+
+    http.end();
+  }
+
+  delay(60000); // Tunggu 1 menit sebelum mengirim data lagi
+}

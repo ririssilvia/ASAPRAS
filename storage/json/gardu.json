@@ -1,0 +1,233 @@
+[
+    {
+        "id_gi": "5",
+        "id_ultg": "1",
+        "nama": "GI TENAU",
+        "deskripsi": "TENAU",
+        "gambar": null,
+        "lat": "-10.1888707027796",
+        "log": "123.54802523901212",
+        "created_at": "2024-08-05 00:09:39",
+        "updated_at": "2024-08-05 00:09:39"
+    },
+    {
+        "id_gi": "6",
+        "id_ultg": "1",
+        "nama": "GI PANAF",
+        "deskripsi": "PANAF",
+        "gambar": null,
+        "lat": "-10.352987247628212",
+        "log": "123.46060065372896",
+        "created_at": "2024-08-05 00:10:58",
+        "updated_at": "2024-08-05 00:11:26"
+    },
+    {
+        "id_gi": "7",
+        "id_ultg": "1",
+        "nama": "GI BOLOK IBT",
+        "deskripsi": "BOLOK IBT",
+        "gambar": null,
+        "lat": "-10.237901133227298",
+        "log": "123.49059143860052",
+        "created_at": "2024-08-05 00:12:06",
+        "updated_at": "2024-08-05 00:12:06"
+    },
+    {
+        "id_gi": "8",
+        "id_ultg": "1",
+        "nama": "GI BOLOK",
+        "deskripsi": "BOLOK",
+        "gambar": null,
+        "lat": "-10.237901133227298",
+        "log": "123.49059143860052",
+        "created_at": "2024-08-05 00:12:59",
+        "updated_at": "2024-08-05 00:12:59"
+    },
+    {
+        "id_gi": "9",
+        "id_ultg": "1",
+        "nama": "GI MAULAFA",
+        "deskripsi": "MAULAFA",
+        "gambar": null,
+        "lat": "-10.21112357757545",
+        "log": "123.61206976604",
+        "created_at": "2024-08-05 00:13:42",
+        "updated_at": "2024-08-05 00:14:35"
+    },
+    {
+        "id_gi": "10",
+        "id_ultg": "1",
+        "nama": "GI NAIBONAT",
+        "deskripsi": "NAIBONAT",
+        "gambar": null,
+        "lat": "-10.099395050456556",
+        "log": "123.8645414528186",
+        "created_at": "2024-08-05 00:14:23",
+        "updated_at": "2024-08-05 00:14:23"
+    },
+    {
+        "id_gi": "11",
+        "id_ultg": "1",
+        "nama": "GI NONOHONIS",
+        "deskripsi": "NONOHONIS",
+        "gambar": null,
+        "lat": "-9.816714351086288",
+        "log": "124.28781305281342",
+        "created_at": "2024-08-05 00:15:43",
+        "updated_at": "2024-08-05 00:15:43"
+    },
+    {
+        "id_gi": "12",
+        "id_ultg": "1",
+        "nama": "GI KEFAMENANU",
+        "deskripsi": "KEFAMENANU",
+        "gambar": null,
+        "lat": "-9.523100686109904",
+        "log": "124.49389655826198",
+        "created_at": "2024-08-05 00:16:22",
+        "updated_at": "2024-08-05 00:16:22"
+    },
+    {
+        "id_gi": "13",
+        "id_ultg": "1",
+        "nama": "GI ATAMBUA",
+        "deskripsi": "ATAMBUA",
+        "gambar": null,
+        "lat": "-9.086904624720763",
+        "log": "124.86595184115659",
+        "created_at": "2024-08-05 00:17:10",
+        "updated_at": "2024-08-05 00:17:10"
+    },
+    {
+        "id_gi": "14",
+        "id_ultg": "1",
+        "nama": "GI ATAPUPU",
+        "deskripsi": "ATAPUPU",
+        "gambar": null,
+        "lat": "-9.006361553020293",
+        "log": "124.81851331047008",
+        "created_at": "2024-08-05 00:17:50",
+        "updated_at": "2024-08-05 00:17:50"
+    },
+    {
+        "id_gi": "15",
+        "id_ultg": "3",
+        "nama": "GI LABUAN BAJO",
+        "deskripsi": "LABUAN BAJO",
+        "gambar": null,
+        "lat": "-8.541022774847645",
+        "log": "119.8828420221056",
+        "created_at": "2024-08-05 00:18:34",
+        "updated_at": "2024-08-05 00:18:34"
+    },
+    {
+        "id_gi": "16",
+        "id_ultg": "3",
+        "nama": "GI RUTENG",
+        "deskripsi": "RUTENG",
+        "gambar": null,
+        "lat": "-8.596815351911138",
+        "log": "120.42316258465745",
+        "created_at": "2024-08-05 00:19:18",
+        "updated_at": "2024-08-05 00:19:18"
+    },
+    {
+        "id_gi": "17",
+        "id_ultg": "3",
+        "nama": "GI ULUMBU",
+        "deskripsi": "ULUMBU",
+        "gambar": null,
+        "lat": "-8.719676799590719",
+        "log": "120.42897483930072",
+        "created_at": "2024-08-05 00:20:06",
+        "updated_at": "2024-08-05 00:20:06"
+    },
+    {
+        "id_gi": "18",
+        "id_ultg": "3",
+        "nama": "GI BORONG",
+        "deskripsi": "BORONG",
+        "gambar": null,
+        "lat": "-8.7811024177557",
+        "log": "120.9993954622992",
+        "created_at": "2024-08-05 00:20:48",
+        "updated_at": "2024-08-05 00:20:48"
+    },
+    {
+        "id_gi": "19",
+        "id_ultg": "3",
+        "nama": "GI BAJAWA",
+        "deskripsi": "BAJAWA",
+        "gambar": null,
+        "lat": "-8.7811024177557",
+        "log": "120.9993954622992",
+        "created_at": "2024-08-05 00:21:40",
+        "updated_at": "2024-08-05 00:21:40"
+    },
+    {
+        "id_gi": "20",
+        "id_ultg": "2",
+        "nama": "GI AESESA",
+        "deskripsi": "AESESA",
+        "gambar": null,
+        "lat": "-8.567583342123768",
+        "log": "121.27362467250187",
+        "created_at": "2024-08-05 00:22:13",
+        "updated_at": "2024-08-05 00:22:13"
+    },
+    {
+        "id_gi": "21",
+        "id_ultg": "2",
+        "nama": "GI ROPA",
+        "deskripsi": "ROPA",
+        "gambar": null,
+        "lat": "-8.50944295938151",
+        "log": "121.70117381076051",
+        "created_at": "2024-08-05 00:22:46",
+        "updated_at": "2024-08-05 00:22:46"
+    },
+    {
+        "id_gi": "22",
+        "id_ultg": "2",
+        "nama": "GI ENDE",
+        "deskripsi": "ENDE",
+        "gambar": null,
+        "lat": "-8.844946864242734",
+        "log": "121.67254114860204",
+        "created_at": "2024-08-05 00:23:17",
+        "updated_at": "2024-08-05 00:30:27"
+    },
+    {
+        "id_gi": "23",
+        "id_ultg": "2",
+        "nama": "GI MAUMERE",
+        "deskripsi": "MAUMERE",
+        "gambar": null,
+        "lat": "-8.595081283460551",
+        "log": "122.19034383808298",
+        "created_at": "2024-08-05 00:23:56",
+        "updated_at": "2024-08-05 00:23:56"
+    },
+    {
+        "id_gi": "24",
+        "id_ultg": "2",
+        "nama": "GI IBT MAUMERE",
+        "deskripsi": "IBT MAUMERE",
+        "gambar": null,
+        "lat": "-8.595081283460551",
+        "log": "122.19034383808298",
+        "created_at": "2024-08-05 00:24:38",
+        "updated_at": "2024-08-05 00:24:38"
+    },
+    {
+        "id_gi": "25",
+        "id_ultg": "2",
+        "nama": "GI WAIRITA",
+        "deskripsi": "WAIRITA",
+        "gambar": null,
+        "lat": "-8.620113569706145",
+        "log": "122.3392118781136",
+        "created_at": "2024-08-05 00:25:18",
+        "updated_at": "2024-08-05 00:25:18"
+    }
+]

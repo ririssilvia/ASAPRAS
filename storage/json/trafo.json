@@ -1,0 +1,218 @@
+[
+    {
+        "id_trafo": "9",
+        "code_trafo": "101L",
+        "nama_trafo": "TRF#1 70/20 kV",
+        "id_gi": "22",
+        "created_at": "2024-08-05 00:29:55",
+        "updated_at": "2024-08-05 00:31:13"
+    },
+    {
+        "id_trafo": "10",
+        "code_trafo": "102L",
+        "nama_trafo": "TRF#2 66/22 kV",
+        "id_gi": "22",
+        "created_at": "2024-08-05 00:31:32",
+        "updated_at": "2024-08-05 00:31:32"
+    },
+    {
+        "id_trafo": "11",
+        "code_trafo": "101K",
+        "nama_trafo": "TRF 70/20 kV",
+        "id_gi": "21",
+        "created_at": "2024-08-05 00:32:08",
+        "updated_at": "2024-08-05 00:32:08"
+    },
+    {
+        "id_trafo": "12",
+        "code_trafo": "101Q",
+        "nama_trafo": "TRF#1 66/20 kV",
+        "id_gi": "15",
+        "created_at": "2024-08-05 00:32:56",
+        "updated_at": "2024-08-05 00:32:56"
+    },
+    {
+        "id_trafo": "13",
+        "code_trafo": "102Q",
+        "nama_trafo": "TRF#2 66/22 kV",
+        "id_gi": "15",
+        "created_at": "2024-08-05 00:33:14",
+        "updated_at": "2024-08-05 00:33:14"
+    },
+    {
+        "id_trafo": "14",
+        "code_trafo": "101S",
+        "nama_trafo": "TRF#1 66/20 kV",
+        "id_gi": "16",
+        "created_at": "2024-08-05 00:34:00",
+        "updated_at": "2024-08-05 00:34:00"
+    },
+    {
+        "id_trafo": "15",
+        "code_trafo": "102S",
+        "nama_trafo": "TRF#2 66/22 kV",
+        "id_gi": "16",
+        "created_at": "2024-08-05 00:34:22",
+        "updated_at": "2024-08-05 00:34:22"
+    },
+    {
+        "id_trafo": "16",
+        "code_trafo": "101R",
+        "nama_trafo": "TRF 66/20 kV",
+        "id_gi": "17",
+        "created_at": "2024-08-05 00:35:04",
+        "updated_at": "2024-08-05 00:35:04"
+    },
+    {
+        "id_trafo": "17",
+        "code_trafo": "101U",
+        "nama_trafo": "TRF 66/20 kV",
+        "id_gi": "19",
+        "created_at": "2024-08-05 00:35:42",
+        "updated_at": "2024-08-05 00:35:42"
+    },
+    {
+        "id_trafo": "18",
+        "code_trafo": "101N",
+        "nama_trafo": "TRF 150/22 kV",
+        "id_gi": "24",
+        "created_at": "2024-08-05 00:36:29",
+        "updated_at": "2024-08-05 00:36:29"
+    },
+    {
+        "id_trafo": "19",
+        "code_trafo": "201N",
+        "nama_trafo": "TRF IBT 150/70 kV",
+        "id_gi": "24",
+        "created_at": "2024-08-05 00:36:55",
+        "updated_at": "2024-08-05 00:36:55"
+    },
+    {
+        "id_trafo": "20",
+        "code_trafo": "101M",
+        "nama_trafo": "TRF 66/20 kV",
+        "id_gi": "23",
+        "created_at": "2024-08-05 00:37:14",
+        "updated_at": "2024-08-05 00:37:14"
+    },
+    {
+        "id_trafo": "21",
+        "code_trafo": "101O",
+        "nama_trafo": "TRF 150/22 kV",
+        "id_gi": "25",
+        "created_at": "2024-08-05 00:37:47",
+        "updated_at": "2024-08-05 00:37:47"
+    },
+    {
+        "id_trafo": "22",
+        "code_trafo": "101P",
+        "nama_trafo": "TRF 66/20 kV",
+        "id_gi": "20",
+        "created_at": "2024-08-05 00:38:08",
+        "updated_at": "2024-08-05 00:38:08"
+    },
+    {
+        "id_trafo": "23",
+        "code_trafo": "101T",
+        "nama_trafo": "TRF 66/20 kV",
+        "id_gi": "18",
+        "created_at": "2024-08-05 00:38:28",
+        "updated_at": "2024-08-05 00:38:28"
+    },
+    {
+        "id_trafo": "24",
+        "code_trafo": "101C",
+        "nama_trafo": "TRF IBT 150/70 kV",
+        "id_gi": "7",
+        "created_at": "2024-08-05 00:39:25",
+        "updated_at": "2024-08-05 00:39:25"
+    },
+    {
+        "id_trafo": "25",
+        "code_trafo": "101B",
+        "nama_trafo": "TRF#1 70/20 kV",
+        "id_gi": "8",
+        "created_at": "2024-08-05 00:39:50",
+        "updated_at": "2024-08-05 00:39:50"
+    },
+    {
+        "id_trafo": "26",
+        "code_trafo": "102B",
+        "nama_trafo": "TRF#2 70/20 kV",
+        "id_gi": "8",
+        "created_at": "2024-08-05 00:40:21",
+        "updated_at": "2024-08-05 00:40:21"
+    },
+    {
+        "id_trafo": "27",
+        "code_trafo": "101D",
+        "nama_trafo": "TRF#1 70/20 kV",
+        "id_gi": "9",
+        "created_at": "2024-08-05 00:40:47",
+        "updated_at": "2024-08-05 00:40:47"
+    },
+    {
+        "id_trafo": "28",
+        "code_trafo": "102D",
+        "nama_trafo": "TRF#2 70/20 kV",
+        "id_gi": "9",
+        "created_at": "2024-08-05 00:41:22",
+        "updated_at": "2024-08-05 00:41:22"
+    },
+    {
+        "id_trafo": "29",
+        "code_trafo": "101F",
+        "nama_trafo": "TRF#1 70/20 kV",
+        "id_gi": "10",
+        "created_at": "2024-08-05 00:41:50",
+        "updated_at": "2024-08-05 00:41:50"
+    },
+    {
+        "id_trafo": "30",
+        "code_trafo": "101G",
+        "nama_trafo": "TRF#1 70/20 kV",
+        "id_gi": "11",
+        "created_at": "2024-08-05 00:42:10",
+        "updated_at": "2024-08-05 00:42:10"
+    },
+    {
+        "id_trafo": "31",
+        "code_trafo": "101H",
+        "nama_trafo": "TRF#1 70/20 kV",
+        "id_gi": "12",
+        "created_at": "2024-08-05 00:42:31",
+        "updated_at": "2024-08-05 00:42:31"
+    },
+    {
+        "id_trafo": "32",
+        "code_trafo": "101J",
+        "nama_trafo": "TRF#1 70/20 kV",
+        "id_gi": "13",
+        "created_at": "2024-08-05 00:42:52",
+        "updated_at": "2024-08-05 00:42:52"
+    },
+    {
+        "id_trafo": "33",
+        "code_trafo": "101I",
+        "nama_trafo": "TRF#1 70/20 kV",
+        "id_gi": "14",
+        "created_at": "2024-08-05 00:43:12",
+        "updated_at": "2024-08-05 00:43:12"
+    },
+    {
+        "id_trafo": "34",
+        "code_trafo": "101A",
+        "nama_trafo": "TRF 150/20 kV",
+        "id_gi": "6",
+        "created_at": "2024-08-05 00:43:49",
+        "updated_at": "2024-08-05 00:43:49"
+    },
+    {
+        "id_trafo": "35",
+        "code_trafo": "101E",
+        "nama_trafo": "TRF 150/20 kV",
+        "id_gi": "5",
+        "created_at": "2024-08-05 00:44:20",
+        "updated_at": "2024-08-05 00:44:20"
+    }
+]

@@ -1,0 +1,93 @@
+#include <WiFi.h>
+#include <HTTPClient.h>
+
+// Konfigurasi WiFi
+const char* ssid = "***********";     // Masukkan SSID WiFi
+const char* password = "**********";   // Masukkan Password WiFi
+
+// Konfigurasi Multiplexer Analog dan Digital
+#define SA0 1
+#define SA1 2
+#define SA2 3
+#define SD0 4
+#define SD1 5
+#define SD2 6
+#define SD3 7
+#define SIGA 8
+#define SIGD 9
+
+// URL Server
+const char* serverName = "http://your-server.com/your-script.php";
+
+// Membaca Sensor
+void readSensors() {
+  // Pembacaan Multiplexer Analog
+  float values[4];
+  for (int i = 0; i < 4; i++) {
+    digitalWrite(SA0, i & 1);
+    digitalWrite(SA1, (i >> 1) & 1);
+    digitalWrite(SA2, (i >> 2) & 1);
+    int sensorValue = analogRead(SIGA);
+    values[i] = sensorValue * ((5000 / (i == 3 ? 19 : 17.3)) / 1023.0);
+    delayMicroseconds(100);
+  }
+
+  // Pembacaan Multiplexer Digital
+  int digitalValues[16];
+  for (int i = 0; i < 16; i++) {
+    digitalWrite(SD0, i & 1);
+    digitalWrite(SD1, (i >> 1) & 1);
+    digitalWrite(SD2, (i >> 2) & 1);
+    digitalWrite(SD3, (i >> 3) & 1);
+    digitalValues[i] = digitalRead(SIGD);
+    delayMicroseconds(100);
+  }
+
+  // Mengirim data ke server
+  String sendData = "";
+  for (int i = 0; i < 4; i++) {
+    sendData += String(values[i]) + ";";
+  }
+  for (int i = 0; i < 16; i++) {
+    sendData += String(digitalValues[i]) + ";";
+  }
+
+  HTTPClient http;
+  http.begin(serverName);
+  http.addHeader("Content-Type", "application/x-www-form-urlencoded");
+  int httpResponseCode = http.POST(sendData);
+  if (httpResponseCode > 0) {
+    Serial.println(httpResponseCode);
+    Serial.println(http.getString());
+  } else {
+    Serial.println("Error on sending request");
+  }
+  http.end();
+}
+
+void setup() {
+  pinMode(SIGA, INPUT);
+  pinMode(SIGD, INPUT);
+  pinMode(SA0, OUTPUT);
+  pinMode(SA1, OUTPUT);
+  pinMode(SA2, OUTPUT);
+  pinMode(SD0, OUTPUT);
+  pinMode(SD1, OUTPUT);
+  pinMode(SD2, OUTPUT);
+  pinMode(SD3, OUTPUT);
+
+  Serial.begin(115200);
+  WiFi.begin(ssid, password);
+
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+  Serial.println("WiFi Connected!");
+  Serial.println("IP Address: " + WiFi.localIP().toString());
+}
+
+void loop() {
+  readSensors();
+  delay(5000); // Waktu Tunggu
+}
